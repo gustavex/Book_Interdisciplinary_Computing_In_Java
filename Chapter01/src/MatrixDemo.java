@@ -1,4 +1,3 @@
-
 class MatrixDemo {
 	final int Size = 3;
 	Matrix A = new Matrix(Size, Size);
