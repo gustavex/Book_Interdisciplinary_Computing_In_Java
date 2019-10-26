@@ -12,6 +12,7 @@ class Message extends Dialog {
 	
 	public void show() {
 		super.show();
+		//super.setVisible(true);
 		super.toFront();
 	}
 }

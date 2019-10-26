@@ -15,6 +15,7 @@ public class MyWindow extends Frame implements ActionListener, Printable {
 	public static void main(String args[]) {
 		MyWindow demo = new MyWindow();
 		demo.show();
+		//demo.setVisible(true);
 	}
 	
 	public MyWindow() {
@@ -80,6 +81,7 @@ public class MyWindow extends Frame implements ActionListener, Printable {
 		} else if (action_is.equals("Open")) {
 			FileDialog opendlg = new FileDialog(this, "Open File", FileDialog.LOAD);
 			opendlg.show();
+			//opendlg.setVisible(true);
 			String infile = opendlg.getDirectory() + opendlg.getFile();
 			if(opendlg.getFile() != null) {
 				Message readingBox = new Message(this, "My Window", "Reading file...");
@@ -90,9 +92,11 @@ public class MyWindow extends Frame implements ActionListener, Printable {
  		} else if (action_is.equals("Import")) {
  			FDialog formatdlg = new FDialog(this, "Format Dialog");
  			formatdlg.show();
+ 			//formatdlg.setVisible(true);
  		} else if (action_is.equals("Save")) {
  			FileDialog savedlg = new FileDialog(this, "Save File As...", FileDialog.SAVE);
  			savedlg.show();
+ 			//savedlg.setVisible(true);
  			String outfile = savedlg.getDirectory() + savedlg.getFile();
  			Message savingBox = new Message(this, "MyWindow", "Saving file...");
  			savingBox.show();
