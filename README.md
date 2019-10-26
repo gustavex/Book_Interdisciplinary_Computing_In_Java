@@ -15,7 +15,7 @@ I am using the problems presented in this book to study Physics and HPC. In this
 ```
 4. Simulated Annealing
 5. Artificial Neural Network
-6. General Algorithm
+6. Genetic Algorithm
 7. Monte Carlo Simulation
 8. Molecular Dynamics
 9. Cellular Automata
